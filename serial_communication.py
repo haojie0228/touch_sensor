@@ -26,7 +26,7 @@ else:
     print("Serial port opened")
 
 
-## send the designed input data to retrieve the sensor data through serial communication protocol
+## send the any input data to retrieve the sensor data through serial communication protocol
 packet = bytearray()
 packet.append(0xAA)
 packet.append(0xCC)
